@@ -17,13 +17,13 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body
-    class="flex flex-col gap-2 justify-center items-center w-full min-h-screen md:max-h-screen bg-[#f2ebe3] px-4 py-8 text-sm"
+    class="flex flex-col gap-2 justify-center items-center w-full min-h-screen bg-[#f2ebe3] px-4 py-8 text-sm"
   >
     <header></header>
 
-    <main>
+    <main class="">
       <div
-        class="flex flex-col md:flex-row bg-white rounded-xl overflow-hidden w-[350px] md:w-[576px]"
+        class="flex flex-col md:flex-row bg-white rounded-xl overflow-hidden max-w-[350px] md:max-w-[640px]"
       >
         <img
           src="images/image-product-mobile.jpg"
@@ -34,7 +34,7 @@
         <img
           src="images/image-product-desktop.jpg"
           alt="perfume"
-          class="hidden md:block md:w-1/2"
+          class="hidden md:block md:w-1/2 basis-full"
         />
 
         <div class="flex flex-col gap-6 p-6 md:p-8">
