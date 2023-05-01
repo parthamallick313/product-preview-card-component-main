@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="flex flex-col gap-2 justify-center items-center w-full min-h-screen md:max-h-screen bg-[#f2ebe3] px-4 py-8 text-sm"
+  >
+    <header></header>
+
+    <main>
+      <div
+        class="flex flex-col md:flex-row bg-white rounded-xl overflow-hidden w-[350px] md:w-[576px]"
+      >
+        <img
+          src="images/image-product-mobile.jpg"
+          alt="perfume"
+          class="md:hidden"
+        />
+
+        <img
+          src="images/image-product-desktop.jpg"
+          alt="perfume"
+          class="hidden md:block md:w-1/2"
+        />
+
+        <div class="flex flex-col gap-6 p-6 md:p-8">
+          <p class="uppercase tracking-[0.25rem] text-[#6c7289]">Perfume</p>
+
+          <h1 class="font-serif text-3xl">Gabrielle Essence Eau De Parfum</h1>
+
+          <p class="text-[#6c7289] leading-6">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+
+          <div class="flex items-center gap-6">
+            <p class="text-[#3c8067] text-3xl font-serif">$149.99</p>
+            <p class="text-[#6c7289] text-sm line-through">$169.99</p>
+          </div>
+
+          <button
+            class="flex justify-center items-center gap-3 py-3 bg-[#3c8067] hover:bg-[#1e4034] text-base text-white rounded-lg"
+          >
+            <img src="images/icon-cart.svg" alt="" class="w-4" />
+            <p>Add to Cart</p>
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="min-w-[350px] text-center">
+      <div class="attribution text-[11px] md:text-xs">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="text-[#3e52a3] font-bold"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/parthamallick313"
+          class="text-[#3e52a3] font-bold"
+          >Partha Mallick</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
