@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/parthamallick313/product-preview-card-component-main](https://github.com/parthamallick313/product-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [product-preview-card-component-fmio.netlify.app](https://product-preview-card-component-fmio.netlify.app)
 
 ## My process
 
@@ -38,7 +38,11 @@ Users should be able to:
 
 I decided to use fixed widths on certain media queries
 
- <div class="flex flex-col md:flex-row bg-white rounded-xl overflow-hidden w-[350px] md:w-[576px]"></div>
+```html
+<div
+  class="flex flex-col md:flex-row bg-white rounded-xl overflow-hidden w-[350px] md:w-[576px]"
+></div>
+```
 
 ## Author
 
